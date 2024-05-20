@@ -17,7 +17,7 @@ import glob
 load_dotenv(find_dotenv(), override=True)
 
 class ChatBot:
-    def __init__(self, files= ["data/ATM-PRC-DS-01 Procedimiento Planificación de Proyectos.docx", "data/ATM-PRC-DS-02 Procedimiento Gestión y Seguimiento de Proyectos.docx", "data/ATM-PRC-DS-03 Procedimiento de Gestión de Riesgos y Oportunidades.docx"]):
+    def __init__(self, files= ["data/ATM-PRC-DS-01 Procedimiento Planificación de Proyectos.docx", "data/ATM-PRC-DS-02 Procedimiento Gestión y Seguimiento de Proyectos.docx", "data/ATM-PRC-DS-03 Procedimiento de Gestión de Riesgos y Oportunidades.docx", "data/ATM-CMN-DS-01 Glosario de Términos.docx"]):
         # Modificar el bucle principal para permitir al usuario especificar múltiples archivos como entrada
         archivos = files
         documentos = self._cargar_documentos(archivos)
